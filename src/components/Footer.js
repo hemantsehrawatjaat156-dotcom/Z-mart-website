@@ -46,7 +46,7 @@ function Footer() {
             </li>
             <li>
               <span className="contact-icon">📞</span>
-              <span>+91 1800-ZMART-99<br/>
+              <span>+91 1800-1800-99<br/>
               <small>(Mon–Sat, 9AM–7PM)</small></span>
             </li>
             <li>
