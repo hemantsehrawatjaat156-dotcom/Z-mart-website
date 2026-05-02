@@ -1,0 +1,88 @@
+const products = [
+  // Phones
+  {
+    id: 1,
+    name: 'ZPhone Pro 15',
+    category: 'Phones',
+    price: 79999,
+    badge: 'Featured',
+    icon: '📱',
+    desc: '6.7" AMOLED, 200MP camera, 5000mAh battery.',
+  },
+  {
+    id: 2,
+    name: 'ZPhone Lite X',
+    category: 'Phones',
+    price: 24999,
+    badge: 'Best Value',
+    icon: '📱',
+    desc: 'Slim design, 64MP camera, fast 45W charging.',
+  },
+  {
+    id: 3,
+    name: 'ZPhone Ultra',
+    category: 'Phones',
+    price: 109999,
+    badge: null,
+    icon: '📱',
+    desc: 'Titanium frame, 1TB storage, satellite SOS.',
+  },
+  // Headphones
+  {
+    id: 4,
+    name: 'ZBuds Pro',
+    category: 'Headphones',
+    price: 8999,
+    badge: 'Featured',
+    icon: '🎧',
+    desc: 'Active noise cancellation, 30hr battery life.',
+  },
+  {
+    id: 5,
+    name: 'ZOver Max',
+    category: 'Headphones',
+    price: 14999,
+    badge: null,
+    icon: '🎧',
+    desc: 'Over-ear Hi-Fi sound, plush memory foam cups.',
+  },
+  {
+    id: 6,
+    name: 'ZNeck Sport',
+    category: 'Headphones',
+    price: 3499,
+    badge: 'Best Value',
+    icon: '🎧',
+    desc: 'Neckband design, water-resistant, 20hr playtime.',
+  },
+  // Groceries
+  {
+    id: 7,
+    name: 'Organic Almonds 1kg',
+    category: 'Groceries',
+    price: 899,
+    badge: 'Featured',
+    icon: '🛒',
+    desc: 'Premium Californian almonds, raw & natural.',
+  },
+  {
+    id: 8,
+    name: 'Cold Press Oil Pack',
+    category: 'Groceries',
+    price: 649,
+    badge: null,
+    icon: '🛒',
+    desc: 'Coconut + olive oil combo, 500ml each.',
+  },
+  {
+    id: 9,
+    name: 'Muesli Breakfast Box',
+    category: 'Groceries',
+    price: 449,
+    badge: 'Best Value',
+    icon: '🛒',
+    desc: 'Oats, seeds, dried fruits — no added sugar.',
+  },
+];
+
+export default products;

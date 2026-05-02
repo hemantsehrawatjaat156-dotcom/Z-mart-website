@@ -1,0 +1,156 @@
+.footer {
+  background-color: var(--black);
+  border-top: 2px solid var(--yellow);
+}
+
+.footer-top {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 48px;
+  padding: 60px 8%;
+  justify-content: space-between;
+  border-bottom: 1px solid var(--border);
+}
+
+/* Brand */
+.footer-brand { max-width: 240px; }
+
+.footer-logo {
+  display: flex;
+  align-items: baseline;
+  gap: 6px;
+  margin-bottom: 14px;
+}
+
+.footer-logo-z {
+  background: var(--yellow);
+  color: var(--black);
+  font-family: 'Bebas Neue', sans-serif;
+  font-size: 28px;
+  width: 36px;
+  height: 36px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border-radius: 4px;
+}
+
+.footer-logo-text {
+  font-family: 'Bebas Neue', sans-serif;
+  font-size: 22px;
+  color: var(--white);
+  letter-spacing: 3px;
+}
+
+.footer-tagline {
+  font-size: 11px;
+  letter-spacing: 3px;
+  text-transform: uppercase;
+  color: var(--yellow);
+  margin-bottom: 12px;
+}
+
+.footer-about {
+  font-size: 13px;
+  color: var(--grey);
+  line-height: 1.75;
+  font-weight: 300;
+}
+
+/* Columns */
+.footer-col h4 {
+  font-family: 'Bebas Neue', sans-serif;
+  font-size: 18px;
+  color: var(--white);
+  letter-spacing: 2px;
+  margin-bottom: 18px;
+}
+
+.footer-col ul {
+  list-style: none;
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+
+.footer-col ul li a {
+  font-size: 14px;
+  color: var(--grey);
+  transition: color 0.2s;
+}
+
+.footer-col ul li a:hover {
+  color: var(--yellow);
+}
+
+/* Contact */
+.contact-list {
+  display: flex;
+  flex-direction: column;
+  gap: 16px;
+}
+
+.contact-list li {
+  display: flex;
+  gap: 12px;
+  align-items: flex-start;
+}
+
+.contact-icon {
+  font-size: 16px;
+  flex-shrink: 0;
+  margin-top: 1px;
+}
+
+.contact-list span {
+  font-size: 13px;
+  color: var(--grey);
+  line-height: 1.65;
+}
+
+.contact-list small {
+  font-size: 11px;
+  color: #555;
+}
+
+/* Bottom bar */
+.footer-bottom {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 18px 8%;
+  flex-wrap: wrap;
+  gap: 12px;
+}
+
+.footer-bottom p {
+  font-size: 12px;
+  color: #444;
+}
+
+.footer-bottom-links {
+  display: flex;
+  gap: 24px;
+}
+
+.footer-bottom-links a {
+  font-size: 12px;
+  color: #444;
+  transition: color 0.2s;
+}
+
+.footer-bottom-links a:hover {
+  color: var(--yellow);
+}
+
+@media (max-width: 768px) {
+  .footer-top {
+    padding: 48px 6%;
+    gap: 32px;
+  }
+  .footer-bottom {
+    padding: 16px 6%;
+    flex-direction: column;
+    text-align: center;
+  }
+}

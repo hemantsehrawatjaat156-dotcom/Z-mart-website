@@ -1,0 +1,60 @@
+.categories-section {
+  background-color: var(--black);
+  padding: 64px 8% 48px;
+  text-align: center;
+}
+
+.section-eyebrow {
+  font-size: 11px;
+  letter-spacing: 4px;
+  text-transform: uppercase;
+  color: var(--yellow);
+  margin-bottom: 8px;
+}
+
+.section-title {
+  font-size: 42px;
+  color: var(--white);
+  margin-bottom: 36px;
+}
+
+.cat-buttons {
+  display: flex;
+  justify-content: center;
+  gap: 14px;
+  flex-wrap: wrap;
+}
+
+.cat-btn {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  background: var(--card-bg);
+  border: 1.5px solid var(--border);
+  color: var(--grey);
+  padding: 14px 28px;
+  border-radius: 4px;
+  font-family: 'DM Sans', sans-serif;
+  font-size: 14px;
+  font-weight: 500;
+  letter-spacing: 1px;
+  text-transform: uppercase;
+  cursor: pointer;
+  transition: all 0.2s;
+}
+
+.cat-btn:hover {
+  border-color: var(--yellow);
+  color: var(--yellow);
+}
+
+.cat-btn.active {
+  background: var(--yellow);
+  color: var(--black);
+  border-color: var(--yellow);
+  font-weight: 700;
+}
+
+.cat-icon {
+  font-size: 18px;
+}
